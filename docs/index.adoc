@@ -3,3 +3,7 @@
 Welcome to the Hello World RPM documentation index.
 
 cpaas-tp-4.13
+
+Got some dist-git authentication issues, checking right now.
+
+
