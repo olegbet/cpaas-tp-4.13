@@ -5,7 +5,7 @@ Summary:	Most simple RPM package
 
 Group:		
 License:	FIXME
-URL:		
+URL:  http://example.com		
 Source0:	
 
 BuildRequires:	
