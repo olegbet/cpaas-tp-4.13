@@ -14,6 +14,7 @@ Requires:
 %description
 Dummy RPM package
 test product rpm package
+take #0
 
 %prep
 %setup -q
