@@ -13,7 +13,7 @@ Requires:
 
 %description
 Dummy RPM package
-
+test product rpm package
 
 %prep
 %setup -q
