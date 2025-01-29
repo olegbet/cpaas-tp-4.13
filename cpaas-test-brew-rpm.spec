@@ -21,18 +21,26 @@ take #0
 
 
 %build
-cat > hello-world.sh <<EOF
-#!/usr/bin/bash
-echo Hello world
+cat > hello_world.py <<EOF
+#!/usr/bin/env python3
+
+def main():
+
+    print("Hello world!")
+
+if __name__=="__main__":
+    main()
+
+
 EOF
 
 %install
 mkdir -p %{buildroot}/usr/bin/
-install -m 755 hello-world.sh %{buildroot}/usr/bin/hello-world.sh
+install -m 755 hello_world.py %{buildroot}/usr/bin/hello_world.py
 
 
 %files
-/usr/bin/hello-world.sh
+/usr/bin/hello_world.py
 
 
 
