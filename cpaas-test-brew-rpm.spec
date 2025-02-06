@@ -15,6 +15,7 @@ Requires:
 Dummy RPM package
 test product rpm package
 take #0
+Webhook check #0
 
 %prep
 %setup -q
