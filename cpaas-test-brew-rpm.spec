@@ -17,6 +17,7 @@ test product rpm package
 take #0
 Webhook check #0
 webhook check #1
+webhook check #2
 
 %prep
 %setup -q
