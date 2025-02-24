@@ -19,6 +19,7 @@ Webhook check #0
 webhook check #1
 webhook check #2
 performance test #0
+performance test #1
 
 %prep
 %setup -q
